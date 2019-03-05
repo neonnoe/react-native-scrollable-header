@@ -4,7 +4,10 @@
     "description": "Scrollable Header demo",
     "slug": "scrollable-header",
     "privacy": "public",
-    "sdkVersion": "25.0.0",
+    "sdkVersion": "32.0.0",
+    "androidStatusBar": {
+      "backgroundColor": "#ffffff"
+    },
     "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,6 +19,9 @@
     },
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
   }
 }

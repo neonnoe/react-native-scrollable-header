@@ -78,8 +78,8 @@ export default class App extends Component {
       <View style={styles.fill}>
         <StatusBar
           translucent
+          backgroundColor="rgba(255,255,255,0)"
           barStyle="light-content"
-          backgroundColor="rgba(0, 0, 0, 0.251)"
         />
         <Animated.ScrollView
           style={styles.fill}
